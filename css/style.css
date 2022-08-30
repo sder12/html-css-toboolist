@@ -161,16 +161,37 @@ ul .li_cross::before{
 
 /* Labels inside the second list  */
 
-.ul_inside_list li span{
- 
-  color: white;
-}
 
 .labels{
-  background-color: #47adf1;
-  /* border-radius: 50%;
-  width: 3rem;
-  height: 3rem;
-  line-height: 3rem;
-  text-align: center; */
+  font-size: 0.8rem;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  padding: 5px 10px; 
+  margin-left: 8px;   
+}
+
+
+.label_blue{
+  background-color: #45abea;
+}
+
+.label_purple{
+  background-color: #9c72e4;
+}
+
+.label_green{
+  background-color: #64c0a9;
+}
+
+.label_orange{
+  background-color: #f29e33;
+}
+
+.label_pink{
+  background-color: #d863a1;
+}
+
+.label_yellow{
+  background-color: #b0c926;
 }
