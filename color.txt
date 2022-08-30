@@ -1,0 +1,19 @@
+COLOR PALETTE
+
+Background #f6f8f9
+-------------------
+Add Task #47adf1
+Add Section #d5d9dd
+------------------
+Check   #98d6c7
+Cross   #ee635a
+------------------
+Editorial #45abea
+QI Goals #9c72e4
+Recruiting #64c0a9
+Mobile #f29e33
+Website #d863a1
+Sales #b0c926
+
+
+
