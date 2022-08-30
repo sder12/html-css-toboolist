@@ -6,6 +6,31 @@
 }
 
 /* COMMON */
+.container{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.background{
+    background-color: grey;
+}
+
 /* HEADER */
+header{
+    background-color: aquamarine;
+    height: 80px;
+}
+
+/* NAV */
+nav{
+    background-color: rgb(255, 177, 177);
+    height: 80px;
+    margin-top: 20px;
+}
+
 /* MAIN */
-/* FOOTER */
+
+main{
+    background-color: pink;
+    height: 500px;
+}
