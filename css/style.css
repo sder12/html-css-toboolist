@@ -78,7 +78,11 @@ main {
   padding-left: 35px;
   border: 1px solid black;
   font-family: Arial, Helvetica, sans-serif;
+  
 }
+
+
+/* External List */
 
 .ul_list_title {
   margin-top: 30px;
@@ -89,4 +93,10 @@ main {
   font-size: 1rem;
   font-weight: 900;
   list-style-position: inside;
+}
+
+/* Internal List*/
+.ul_inside_list{
+    margin-left: 20px;
+    font-weight: 100;
 }
