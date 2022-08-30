@@ -16,4 +16,22 @@ Website #d863a1
 Sales #b0c926
 
 
+TEXT LIST
+
+New Task
+    Quarterly Newsletter                        Editorial
+
+Today
+    Recruiting blog post                        Editorial
+    Mobile app luaunch                          Q1 Goals
+    Interview John H.                           Recruiting
+    Summit update to mobiile storefronts        Mobile
+
+Upcoming
+    Schedule meeting with Alex
+    Homepage refresh                            Website
+    Onboard new Sales team members              Sales
+    Review editorial calendar                   Editorial
+
+
 
