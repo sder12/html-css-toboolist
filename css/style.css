@@ -6,29 +6,29 @@
 }
 
 /* COMMON */
-.container {
-  margin: 0 auto;
-  width: 60%;
-}
-
-.background {
-  background-color: #f6f8f9;
-}
 
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f6f8f9; 
 }
+
+html {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 62,5%; 
+  /* 100 per cento del font del browser =16px
+  se voglio fare il 10px metto 62,5%*/
+}
+
 
 /* HEADER */
 header {
   background-color: rgb(255, 255, 255);
+  padding: 1em;  /* padding e margin in em se aggiusto in html il font-size imposto sia em che rem! */
   height: 80px;
   line-height: 80px;
 }
 
 header img {
-  vertical-align: middle;
-  padding-left: 10px;
+  vertical-align: middle;  
 }
 
 header span {
@@ -37,22 +37,28 @@ header span {
   vertical-align: middle;
 }
 
+
+/* CONTAINER */
+.container {
+  background-color: rgb(255, 255, 255);
+  width: 60%;
+  margin: 2em auto 0;  
+  padding-left: 3.5em;
+}
+
+
 /* NAV */
 nav {
-  /* border: 1px solid black; */
-  background-color: rgb(255, 255, 255);
-  height: 70px;
-  line-height: 70px;
-  margin-top: 20px;
-  margin-bottom: 5px;
-  padding-left: 35px;
+  height: 7em;
+  line-height: 7em;
+  border-bottom: 4px solid #f6f8f9;
+  /* invece che dividere nave e main inserisco border -- border in px*/
 }
 
 nav button {
-  border-radius: 6px;
+  border-radius: 6px;   /* in px perchè voglio forma rigida, non che si adatti */
   border-style: solid;
-  line-height: 2;
-  padding: 0 10px;
+  padding: 0.4rem 1rem;
   font-size: 0.8rem;
   font-weight: bold;
   text-align: center;
@@ -72,18 +78,15 @@ nav button {
 
 /* MAIN */
 
-main {
-  background-color: rgb(255, 255, 255);
-  height: 500px;
-  padding-left: 35px;
-  border: 1px solid rgb(255, 255, 255);
+main {  
   font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 3em;
 }
 
 /* External List */
 
 .ul_list_title {
-  margin-top: 30px;
+  margin-top: 3rem;
   list-style-type: "\25BC  ";
 }
 
@@ -95,7 +98,7 @@ main {
 
 /* Internal List*/
 .ul_inside_list {
-  margin-left: 20px;
+  margin-left: 2em;
   font-weight: 100;
   font-size: 1em;
 }
